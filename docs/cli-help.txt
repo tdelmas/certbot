@@ -315,8 +315,8 @@ delete:
 revoke:
   Options for revocation of certificates
 
-  --reason {keycompromise,affiliationchanged,superseded,unspecified,cessationofoperation}
-                        Specify reason for revoking certificate. (default: 0)
+  --reason {unspecified,keycompromise,affiliationchanged,superseded,cessationofoperation}
+                        Specify reason for revoking certificate. (default: unspecified)
 
 register:
   Options for account registration & modification
